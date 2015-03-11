@@ -13,6 +13,10 @@ spring:
     config:
       enabled: false
 
+vaadin:
+  servlet:
+      urlMapping: /ui/*
+
 ---
 
 spring:
