@@ -9,8 +9,9 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Profile;
 
-@Configuration
-@Profile("cloud")
+//Disabled until vaadin4spring is serializable
+//@Configuration
+//@Profile("cloud")
 public class ApplicationCloudConfiguration {
 
     @Value("${memcache-url}")

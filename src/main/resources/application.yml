@@ -22,4 +22,9 @@ vaadin:
 spring:
   profiles: cloud
 
-memcache-url: ${MEMCACHE_URL:memcache_url}
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: ${EUREKA_HOST_URL}
+
+#memcache-url: ${MEMCACHE_URL:memcache_url}
